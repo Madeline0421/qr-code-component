@@ -1,0 +1,53 @@
+body { 
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', Verdana, Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.group { 
+    width: 320px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px white;
+}
+
+.qr-code { 
+    width: 288px;
+    border-radius: 20px;
+    border: 2px white;
+    margin: 15px;
+}
+
+.text { 
+    width: 288px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title { 
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.description { 
+    text-align: center;
+}
