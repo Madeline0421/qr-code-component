@@ -57,3 +57,7 @@ body {
     /* text-wrap: balance; */
     padding: 0px 18px 16px;
 }
+
+abbr{
+    text-decoration: none;
+}
