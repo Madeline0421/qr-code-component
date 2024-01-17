@@ -7,11 +7,8 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    /* below 3 lines can be removed - no need for them*/
-    /* position: absolute; */
-    /* width: 100%; */
-    /* height: 100%; */
-    margin: 0; /*remove default margin*/
+    margin: 0px;
+    gap: 10px;
 }
 .attribution { 
     font-size: 11px; 
@@ -22,13 +19,8 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-.group {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
+.card {
     width: 300px;
-    /* height: 497px; */
     background-color: white;
     border-radius: 25px;
     border: 2px white;
@@ -43,7 +35,6 @@ body {
     align-self: center;
     padding: 0px;
 }
-
 
 .title { 
     font-weight: bold;
